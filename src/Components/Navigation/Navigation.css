@@ -1,4 +1,39 @@
 .navigation {
-    background-color: black;
     color: white;
+    border: 1px solid red;
+    text-align: center;
+}
+
+.nav-list {
+    list-style: none;
+    border: 1px solid red;
+}
+
+ul li {
+    display: inline-block;
+}
+
+.home-link {
+    
+}
+
+.project-link {
+    
+}
+
+.bio-link {
+       
+}
+
+.contact-link {
+        
+}
+
+.home-link,
+.project-link,
+.bio-link,
+.contact-link {
+    text-decoration: none;
+    color: white;
+    padding: 5px;
 }

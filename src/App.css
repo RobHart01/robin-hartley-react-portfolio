@@ -2,19 +2,6 @@
   width: 100vw;
   height: 100vh;
   margin: auto;
-  background-color: blue;
+  background-color: rgb(31, 31, 32);
   color: white;
-}
-
-Link {
-  background-color: red;
-
-}
-
-.home-link {
-  text-decoration: none;
-  color: black;
-  font-size: 1em;
-  font-weight: bold;
-  padding: 20px;
 }
