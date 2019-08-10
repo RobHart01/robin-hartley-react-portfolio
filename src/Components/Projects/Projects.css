@@ -1,0 +1,21 @@
+.projects {
+    background-color: rgb(7, 7, 7);
+    color: #FFD700;
+    font-size: 0.75em;
+    height: 100vh;
+    text-align: center;
+    width: 100vw;
+}
+
+.link {
+    text-align: center;
+    margin: 80px 0px;
+}
+
+.link a {
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    padding: 10px 20px;
+    border-radius: 5px;
+}

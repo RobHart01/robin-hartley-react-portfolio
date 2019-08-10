@@ -1,6 +1,80 @@
 .homepage {
-    color: orange;
+    background-color: rgb(182, 202, 255);
+    color: rgb(6, 39, 7);
     font-size: 0.75em;
-    background-image: url('../../Assets/Images/Seattle.jpg');
+    height: 100vh;
+    width: 100vw;
 }
 
+.main-content {
+    width: 600px;
+    height: 600px;
+    background-color: red;
+    margin: auto;
+}
+
+.title-trio {
+    text-align: left;
+}
+
+.title {
+    font-size: 2em;
+    font-weight: bold;
+    letter-spacing: 5px;
+    padding-top: 100px;
+    text-align: center;
+}
+
+.sub-title {
+    font-size: 1em;
+    letter-spacing: 4px;
+    padding: 20px;
+    text-align: center;
+    color: rgb(6, 39, 7);
+}
+
+.location-icon, .location {
+    display: inline-block;
+    text-align: center;
+}
+
+ .location-icon {
+    width: 15px;
+    height: 15px;
+    vertical-align: top;
+    padding-left: 5px;
+}
+
+.location-tab {
+    text-align: center;
+}
+.quote {
+    text-align: center;
+    padding: 20px;
+    color: rgb(219, 34, 34);
+}
+
+
+.content-1, .content-2 {
+    margin: auto;
+    width: 300px;
+    padding: 5px;
+    text-align: center;
+}
+
+.homie-link {
+    border-radius: 25px;
+    background-color: #FFD700;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin: auto;
+    margin-top: 80px;
+    padding: 5px;
+    width: 60px;
+}
+
+.gang-link {
+    text-decoration: none;
+    margin: 5px;
+    color: black;
+}

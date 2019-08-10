@@ -1,32 +1,13 @@
 .navigation {
-    color: white;
-    border: 1px solid red;
     text-align: center;
 }
 
 .nav-list {
     list-style: none;
-    border: 1px solid red;
 }
 
 ul li {
     display: inline-block;
-}
-
-.home-link {
-    
-}
-
-.project-link {
-    
-}
-
-.bio-link {
-       
-}
-
-.contact-link {
-        
 }
 
 .home-link,
@@ -36,4 +17,10 @@ ul li {
     text-decoration: none;
     color: white;
     padding: 5px;
+}
+
+.navigation img {
+    width: 20px;
+    height: 20px;
+    padding: 20px;
 }

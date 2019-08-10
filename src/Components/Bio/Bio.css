@@ -1,0 +1,14 @@
+.bio {
+    background-color: rgb(195, 195, 211);
+    color: #FFD700;
+    font-size: 0.75em;
+    height: 100vh;
+    text-align: center;
+    width: 100vw;
+}
+
+.bio-image {
+    width: 200px;
+    height: auto;
+    padding: 20px 0px 0px 0px;
+}
