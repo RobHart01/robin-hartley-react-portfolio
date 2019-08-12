@@ -13,11 +13,10 @@ function Homepage() {
                         <p className="location">Based in Seattle WA</p>
                         <img className="location-icon" src={Location} alt="location icon" />
                     </div>
-                    <p className="quote">You are your own greatest enemy.</p>
                 </div>
                 <div className="bio-info">
-                    <p className="content-1">Hi, my name is Robin. Not like the bird Robin, but more like Batman's Sidekick. We'll go with that one.</p>
-                    <p className="content-2">Anways, like my Intro says there, I'm a Full-Stack Developer currently based in Seattle Washington.</p>
+                    <p className="content-1">Hi, my name is Robin, I make websites, drink coffee, and take Photos.</p>
+                    <p className="content-2">I'm a Full-Stack Developer currently located in Seattle WA, with passion in creating simple, yet elegant designs.</p>
                 </div>
                 <div className="homie-link">
                     <Link className="gang-link" to="/projects">Continue</Link>

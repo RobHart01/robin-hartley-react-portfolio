@@ -1,18 +1,20 @@
 import React from 'react';
-import './Bio.css';
+
+import Hobbies from './Hobbies/Hobbies';
 import Kyoto from '../../Assets/Images/Robin-Kyoto.jpg';
+import Technologies from './Technologies/Technologies';
+
+import './Bio.css';
 
 function Bio() {
     return (
         <div className="bio">
-            <p className="title">Biography</p>
-            <p className="sub-title">Robin Taku Hartley</p>
+            <p className="bio-title">Biography</p>
+            <p className="bio-sub-title">Robin Taku Hartley</p>
             <img className="bio-image" src={Kyoto} alt="Kyoto" />
-            <p>Picture of me in Kyoto</p>
-            <p className="content">Born in Columbus Ohio in 1997, moved to Washington, then to Japan, </p>
-            <p>Component of hobbies</p>
-            <p>Component of accomplishments</p>
-            <h3>Technical Languages</h3>
+            <p className="bio-image-desc">Picture of me in Kyoto</p>
+            <Hobbies />
+            <Technologies />
         </div>
     )
 }

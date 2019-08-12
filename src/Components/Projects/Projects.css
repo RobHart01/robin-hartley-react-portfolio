@@ -1,10 +1,23 @@
 .projects {
-    background-color: rgb(7, 7, 7);
-    color: #FFD700;
+    color: rgb(238, 238, 226);
     font-size: 0.75em;
     height: 100vh;
     text-align: center;
     width: 100vw;
+}
+
+.project-title {
+    background-color: rgb(6, 15, 7);
+    height: 200px;
+    font-size: 2em;
+    font-weight: bold;
+    letter-spacing: 5px;
+    padding-top: 150px;
+    text-align: center;
+}
+
+.project-content {
+    color: black;
 }
 
 .link {
