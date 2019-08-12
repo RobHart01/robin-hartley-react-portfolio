@@ -33,14 +33,18 @@
 }
 
 .contact-content-wrapper {
-    background-color: white;
-    padding: 200px;
+  background-color: white;
+  padding: 100px;
+}
+
+.contact-social-content {
+  margin: 10px 0px;
 }
 
 .contact-title {
   background-color: rgb(6, 15, 7);
   color: white;
-  height: 100px;
+  height: 200px;
   font-size: 2em;
   font-weight: bold;
   letter-spacing: 5px;
@@ -48,10 +52,11 @@
   text-align: center;
 }
 
-.contact-social-github, .contact-social-linkedin {
-    width: 30px;
-    height: 30px;
-    padding: 10px 5px;
+.contact-social-github,
+.contact-social-linkedin {
+  width: 30px;
+  height: 30px;
+  padding: 10px 5px;
 }
 
 .contact-form {
@@ -60,16 +65,16 @@
 }
 
 .contact-button {
-    background-color: #ffa600;
-    border: none;
-    border-radius: 10px;
-    color: #290ada;
-    padding: 15px 40px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 1em;
-    margin: 20px 0px;
-    cursor: pointer;
-    font-weight: bold;
+  background-color: #ffa600;
+  border: none;
+  border-radius: 10px;
+  color: #290ada;
+  padding: 15px 40px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1em;
+  margin: 20px 0px;
+  cursor: pointer;
+  font-weight: bold;
 }
