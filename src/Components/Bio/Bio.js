@@ -12,7 +12,7 @@ function Bio() {
             <p className="bio-title">Biography</p>
             <p className="bio-sub-title">Robin Taku Hartley</p>
             <img className="bio-image" src={Kyoto} alt="Kyoto" />
-            <p className="bio-image-desc">Picture of me in Kyoto</p>
+            <p className="bio-image-desc">Picture of me in Kyoto 2019.</p>
             <Hobbies />
             <Technologies />
         </div>

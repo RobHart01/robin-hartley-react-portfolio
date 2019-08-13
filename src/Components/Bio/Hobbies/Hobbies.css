@@ -1,0 +1,33 @@
+.hobbies {
+    background-color: white;
+    color: black;
+    padding: 20px;
+}
+
+.hobbies-title {
+    font-weight: bold;
+    text-align: left;
+    font-size: 2em;
+}
+
+.hobbies-subtitle {
+    text-align: left;
+    font-size: 1em;
+    padding-bottom: 10px;
+}
+
+.hobbies-ul {
+    display: inline-block;
+    position: relative;
+    text-align: left;
+    vertical-align: top;
+    top: -30px;
+}
+
+.hobbies-content {
+    display: block;
+    font-weight: bold;
+    text-align: left;
+    font-size: 1em;
+    padding: 5px;
+}

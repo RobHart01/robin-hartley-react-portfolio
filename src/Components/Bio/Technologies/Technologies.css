@@ -1,0 +1,55 @@
+.tech-languages, .tech-framework, .tech-database, .tech-methodologies, .tech-other {
+    vertical-align: top;
+    display: inline-block;
+    text-align: left;
+    padding: 20px;
+}
+
+.tech-lang, .tech-frame, .tech-data, .tech-meth, .tech-oth {
+    display: block;
+    text-align: left;
+}
+
+.tech-lang-title, .tech-frame-title, .tech-data-title, .tech-meth-title, .tech-oth-title {
+    padding-bottom: 10px;
+    font-weight: bold;
+    font-size: 1.25em;
+}
+
+.technologies {
+    background-color: white;
+    color: black;
+    padding: 20px;
+}
+
+.tech-title {
+    font-weight: bold;
+    text-align: left;
+    font-size: 2em;
+}
+
+.tech-subtitle {
+    text-align: left;
+    font-size: 1em;
+    padding-bottom: 10px;
+}
+
+.tech-ul {
+    display: inline-block;
+    text-align: left;
+    vertical-align: top;
+    top: -30px;
+}
+
+.hobbies-content {
+    display: block;
+    font-weight: bold;
+    text-align: left;
+    font-size: 1em;
+    padding: 5px;
+}
+
+
+
+
+

@@ -1,8 +1,8 @@
 .bio {
-    background-color: rgb(0, 4, 44);
-    color: #FFD700;
+    background-color: rgb(6, 15, 7);
+    color: rgb(200, 200, 200);
     font-size: 0.75em;
-    height: 100vh;
+    height: 100vh auto;
     text-align: center;
     width: 100vw;
 }
@@ -11,7 +11,7 @@
     font-size: 2em;
     font-weight: bold;
     letter-spacing: 5px;
-    padding-top: 150px;
+    padding: 20px;
     text-align: center;
 }
 
@@ -29,11 +29,11 @@
 }
 
 .bio-image-desc {
-    padding-top: 10px;
+    padding: 10px 0px 20px 0px;
 }
 
 .Hobbies {
-    padding: 20px;
+    padding: 40px;
 }
 
 .Technologies {

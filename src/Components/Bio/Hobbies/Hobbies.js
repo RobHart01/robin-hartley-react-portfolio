@@ -4,14 +4,15 @@ import './Hobbies.css';
 
 function Hobbies() {
     return (
-        <div className="Hobbies">
-            <p className="">Things I enjoy doing:</p>
-            <ul className="">
-                <li className="">Ordering an espresso from the local downtown Seattle coffee shops.</li>
-                <li className="">Doing anything related to photography or videography.</li>
-                <li className="">I spend a lot of time thinking about architecture. Not code, well that too, but more like building wise.</li>
-                <li className="">I'm from Japan, so making trips there is always something I look foward to.</li>
-                <li className="">My spotify playlist is my treasure.</li>
+        <div className="hobbies">
+            <p className="hobbies-title">Hobbies</p>
+            <p className="hobbies-subtitle">Things I enjoy doing</p>
+            <ul className="hobbies-ul">
+                <li className="hobbies-content">Ordering a freshly made espresso from the local Seattle downtown coffee shops.</li>
+                <li className="hobbies-content">Doing anything related to photography or videography (going on shoots, editing, etc...).</li>
+                <li className="hobbies-content">I spend a lot of time thinking about architecture. Not code architecture, well that too, but more like building wise.</li>
+                <li className="hobbies-content">Journaling.</li>
+                <li className="hobbies-content">My spotify playlist is my treasure. I spend a lot of time trying to find good modern music.</li>
             </ul>
         </div>
     )
